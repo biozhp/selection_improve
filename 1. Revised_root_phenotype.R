@@ -1,0 +1,5 @@
+df <- read.table("input.txt",header = T,sep = "\t")
+fit <- lm(Root_phenotype ~ TKW, df)
+fit_summary <- summary(fit)
+resid_output <- fit_summary$coefficients[1,1] + resid(fit)
+resid_exp <- data.frame(resid_exp,resid_output)
