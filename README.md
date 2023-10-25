@@ -1,4 +1,4 @@
-## Synergistic selection on both above- and below-ground traits during bread wheat improvement
+## Modern wheat breeding selection synergistically improves above- and below-ground traits
 This project contains the codes used in the study.
 
 ## Contact
